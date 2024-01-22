@@ -1,0 +1,36 @@
+.main-background {
+    background: #181818;
+}
+
+.movie_card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(autoFit, 5px);
+
+    height: 290px;
+    width: 180px;
+    margin: 10px 7px;
+}
+
+.movie_cardBody {
+    height: 240px;
+    width: 100%;
+}
+
+.movie_listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: auto;
+}
+
+.movie_footer_links small {
+    color: rgb(176, 164, 164);
+    font-size: 9pt;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.movie_title {
+    margin-top: 5px;
+    font-size: 11pt;
+}
